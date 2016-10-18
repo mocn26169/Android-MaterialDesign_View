@@ -1,3 +1,7 @@
 <resources>
+
     <string name="app_name">Android_MaterialDesign_View</string>
+    <string name="main_item1">item1</string>
+    <string name="main_item2">item2</string>
+
 </resources>

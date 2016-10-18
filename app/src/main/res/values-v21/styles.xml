@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+                <!-- 隐藏ActionBar -->
+                <item name="windowActionBar">false</item>
+                <!-- 使用 API Level 22 編譯的話，要拿掉前綴字 -->
+                <item name="android:windowNoTitle">true</item>
+                <item name="windowNoTitle">true</item>
+                <!-- 菜单栏颜色 -->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <!--状态栏颜色 -->
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <!--各控制元件(如：check box、switch 或是 radoi) 被勾选 (checked) 或是选定 (selected) 的颜色-->
+                <item name="colorAccent">@color/colorAccent</item>
+                <!--各控制元件的预设颜色-->
+                <item name="colorControlNormal">@color/gray</item>
+                <!--App的背景色-->
+                <item name="android:windowBackground">@color/white</item>
+                <!--导航栏背景色-->
+                <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        </style>
+</resources>
