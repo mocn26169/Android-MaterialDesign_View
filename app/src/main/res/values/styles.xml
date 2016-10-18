@@ -1,6 +1,5 @@
 <resources>
 
-
     <!-- 父主题 -->
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
         <!-- 隐藏ActionBar -->
@@ -65,11 +64,11 @@
         <item name="android:dropDownHorizontalOffset">0dip</item>
     </style>
 
-
     <!-- 子toolbar样式 -->
     <style name="ChildToolbarTheme" parent="@style/ToolbarTheme">
         <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
     </style>
+
     <!-- 子toolbar标题样式 -->
     <style name="ChildToolbarTitleTheme" parent="@style/ToolbarTitleTheme">
         <!-- 字体大小 -->
@@ -79,6 +78,7 @@
         <!-- 字体样式 -->
         <item name="android:textStyle">bold</item>
     </style>
+
     <!-- 子toolbar弹出菜单样式 -->
     <style name="ChildToolbarPopupTheme" parent="ToolbarPopupTheme">
         <!--设置溢出菜单样式-->
@@ -93,8 +93,9 @@
         <item name="android:dropDownHorizontalOffset">0dip</item>
     </style>
 
+    <!--子溢出菜单按钮样式-->
     <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
-        <item name="android:src">@mipmap/ic_menu_more</item>
+        <item name="android:src">@mipmap/ic_more</item>
     </style>
 
 </resources>
