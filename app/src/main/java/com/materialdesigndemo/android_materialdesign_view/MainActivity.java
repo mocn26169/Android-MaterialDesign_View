@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(MainActivity.this,ContentActivity.class);
         startActivity(intent);
-        finish();
+//        finish();
     }
 
     @Override

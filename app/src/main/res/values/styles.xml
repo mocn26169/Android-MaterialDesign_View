@@ -1,5 +1,5 @@
 <resources>
-
+    <!-- 主题样式设置start=============================================-->
     <!-- 父主题 -->
     <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
         <!-- 隐藏ActionBar -->
@@ -97,5 +97,25 @@
     <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
         <item name="android:src">@mipmap/ic_more</item>
     </style>
+    <!-- 主题样式设置end=============================================-->
 
+    <!-- 通用样式设置start=============================================-->
+    <!--文字样式-->
+    <style name="StyleContentNormal">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--标题样式-->
+    <style name="StyleTitleNormal">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <!--RecycleView样式-->
+    <style name="StyleReclycleViewNormal">
+
+    </style>
+    <!-- 主题样式设置end=============================================-->
 </resources>
