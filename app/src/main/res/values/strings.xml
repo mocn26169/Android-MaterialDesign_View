@@ -4,4 +4,6 @@
     <string name="main_item1">item1</string>
     <string name="main_item2">item2</string>
 
+    <string name="recycler_item1">添加数据</string>
+    <string name="recycler_item2">展示snackbar</string>
 </resources>

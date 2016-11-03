@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.materialdesigndemo.android_materialdesign_view.MainActivity"
+      tools:context="com.materialdesigndemo.android_materialdesign_view.activity.MainActivity"
     >
 
     <item
