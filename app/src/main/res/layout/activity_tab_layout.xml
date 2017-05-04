@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slategray"
+>
+
+    <!--1. app:tabIndicatorColor tab的指示符颜色-->
+    <!--2. app:tabSelectedTextColor 选择tab的文本颜色-->
+    <!--3. app:tabTextColor 普通tab字体颜色-->
+    <!--4. app:tabMode 模式，可选fixed和scrollable fixed是指固定个数，scrollable是可以横行滚动的（逼格高）-->
+    <!--5. app:tabGravity 对齐方式，可选fill和center-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#FFFF0000"
+        app:tabSelectedTextColor="#FF0000FF"
+        app:tabTextColor="#FFFFFFFF"
+        app:tabMode="scrollable"
+        app:tabGravity="fill"/>
+</RelativeLayout>

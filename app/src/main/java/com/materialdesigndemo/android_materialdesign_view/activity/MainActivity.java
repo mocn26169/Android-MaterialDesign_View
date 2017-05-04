@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("主页");
         setSupportActionBar(toolbar);
 
-        Intent intent = new Intent(MainActivity.this,TabLayoutActivity.class);
+        Intent intent = new Intent(MainActivity.this,RecycleViewActivity.class);
         startActivity(intent);
 //        finish();
     }
